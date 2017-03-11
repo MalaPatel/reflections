@@ -1,24 +1,31 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-creates repository
-
-
+	creates repository
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-staging area helps in getting all the changes together to form logical change and then perform a single commit. Therefore it avoids multiple commits.
+	staging area helps in getting all the changes together to form logical change and 	then perform a single commit. Therefore it avoids multiple commits.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	by put all the changes inside staging area, verifying changes before making a 		single commit to repository
 
 What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+organised? How would branches help?
+	
+	to do experiments, to fix bugs, keeps project organised, to collaborate publicaly
 
-How do the diagrams help you visualize the branch structure?
+How do the diagrams help you visualise the branch structure?
+	
+	it helps to know what are different branches other than master. Also single 		commits can be easily visualised and given branch if don’t want them to become 		unreachable afterwards.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	merging branches results into a single merged master and we can delete the name of branch which was merged. Commits which were part of branch will still be reachable as they are now part of master..and are reachable through master
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Git can automatically merge codes if there is no conflict. Conflict arises if same line of code is changed by two different people. Git brings this to attention while the user tries to commit changes. By this way git takes care that codebase denote break or create any unintentional bug. Manually doing changes has its own challenges where in one has to understand the changes done by other person and try to resolve by coming together.
