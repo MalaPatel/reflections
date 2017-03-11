@@ -8,3 +8,8 @@ Why might you want to always pull changes manually rather than having Git automa
 	so that its an informed changes
 	bugs can be avoided by knowing what all has bee committed
 
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	to be able to do experimental changes and get it reviewed before adding it to the official code base
